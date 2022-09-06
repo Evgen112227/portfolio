@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Портфолио Junior верстальщика</title>
+  <link rel="stylesheet" href="style.css">
+  <link
+    href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Old+Standard+TT&display=swap&subset=cyrillic"
+    rel="stylesheet">
+</head>
+
+<body>
+  <header class="page-header">
+    <div class="container">
+      <a class="page-header__mail mail" href="mailto:deribasovich@gmail.com">deribasovich@gmail.com</a>
+      <a class="page-header__tel tel" href="tel:+375333370886">+375 33 3370886</a>
+    </div>
+  </header>
+
+  <section class="hero-image">
+    <div class="container">
+      <h1 class="heading">Гладкий Евгений Владимирович</h1>
+      <p>Junior Web-developer</p>
+    </div>
+  </section>
+
+  <section class="intro">
+    <div class="container">
+      <!-- <h2 class="subheading">Давайте познакомимся</h2> -->
+      <figure>
+        <img src="img/photo.jpg" width="928" height="708" alt="Фотография Неопознанного Енота">
+      </figure>
+      <!-- <h3>Пара слов о себе</h3>
+      <p>Текст с парой слов о себе.</p>
+      <h3>Чем могу быть полезен</h3>
+      <p>Текст о том, чем могу быть полезен.</p> -->
+
+      <div class="skills">
+        <h3>Мои навыки</h3>
+        <dl class="skills-list">
+          <dt class="skill-html">HTML</dt>
+          <dd class="level">
+            <div style="width: 60%">601%</div>
+          </dd>
+          <dt class="skill-js">JavaScript</dt>
+          <dd class="level">
+            <div style="width: 60%">60%</div>
+          </dd>
+          <dt class="skill-css">CSS</dt>
+          <dd class="level">
+            <div style="width: 40%">40%</div>
+          </dd>
+          <dt class="skill-sass">Sass</dt>
+          <dd class="level">
+            <div style="width: 40%">40%</div>
+          </dd>
+          <dt class="skill-react">React</dt>
+          <dd class="level">
+            <div style="width: 30%">30%</div>
+          </dd>
+        </dl>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="portfolio">
+    <div class="container">
+      <h2 class="subheading">Мои работы</h2>
+      <div class="wrapper">
+        <figure class="project-image">
+          <img class="joke w928" src="img/mapty.png" width="928" height="750" alt="mapty application">
+        </figure>
+        <h3>
+          Приложение Mapty.
+        </h3>
+        <p>
+          Учебный проект Udemy. Работа со сторонней библиотекой Leaflet. При щелчке на карте создается
+          таб в левой колонке, где можно выбрать событие: бег(Running) или велоезда(Cycling). В поля вводим
+          длительность, расстояние и набор высоты или ритм бега. Появляется таб с этими данными, также создается объект
+          в localstorage и при дальнейшей перезагрузкуе страницы ваши данные подгружаются и рендерятся на странице
+          (точки на карте и табы). Для каждого таба есть значок удалить.
+        </p>
+        <a class="button" target="_blank" href="https://evgen112227.github.io/mapty/">Открыть
+          страницу</a>
+      </div>
+      <div class="wrapper">
+        <figure class="project-image">
+          <img class="joke w928" src="img/yachtclub.png" width="928" height="750" alt="custom videoplayer">
+        </figure>
+        <h3>Лэндинг страница "Яхт-клуб"</h3>
+        <p>Стартовая страница сайта "Яхт-клуб". Тренировочный макет HTML Academy.
+        </p>
+        <a class="button" target="_blank" href="https://evgen112227.github.io/yacht-club-landing-page/">Открыть
+          страницу</a>
+      </div>
+      <div class="wrapper">
+        <figure class="project-image">
+          <img class="joke w928" src="img/custom_videoplayer.png" width="928" height="750" alt="custom videoplayer">
+        </figure>
+        <h3>Приложение "Custom videoplayer"</h3>
+        <p>Кастомный видеоплеер. Работают кнопки play, полосска звука кликабельна (устанавливает уровень звука). Клик на
+          иконку с динамиком отключаает звук и меняет иконку. Еще один клик возвращает звук на прежнюю отметку.
+          Прогресс-бар также кликабелен. Опция фулкрин присутствует.
+        </p>
+        <a class="button" target="_blank" href="https://evgen112227.github.io/videoplayer/">Открыть страницу</a>
+      </div>
+      <div class="wrapper">
+        <figure class="project-image">
+          <img class="joke w928" src="img/bookmark.png" width="928" height="750" alt="bookmark app">
+        </figure>
+        <h3>Приложение "Bookmark"</h3>
+        <p>Приложение позволяет делать закладки для ваших любимых вкладок браузера в удобной форме. Из интересного -
+          иконка сайта автоматически проставляется с левой стороны закладки. Поля формы свалидированы.
+        </p>
+        <a class="button" target="_blank" href="https://evgen112227.github.io/bookmark/">Открыть страницу</a>
+      </div>
+      <div class="wrapper">
+        <figure class="project-image">
+          <img class="joke" src="img/tellMeAJoke.png" width="928" height="450" alt="tell me a joke app">
+        </figure>
+        <h3>Приложение "Tell me a joke"</h3>
+        <p>. При нажатии на кнопку посылает запрос на <a href="https://sv443.net/jokeapi/v2/">"JokeAPI - Sv443"</a> и
+          получает ответ,
+          затем ответ собираю в переменную и вывожу на экран в виде текста. Также реализован <a
+            href="https://rapidapi.com/voicerss/api/text-to-speech-1/details">The Voice RSS
+            Text-to-Speech (TTS) API</a> - конвертирует текст и аудио, присваиваю элементу audio текст как src аттрибут
+          и при
+          нажатии на кнопку воспроизводит этот текст-шутку (тематика шуток - программирование).</p>
+        <a class="button" target="_blank" href="https://evgen112227.github.io/TellMeAJoke/">Открыть страницу</a>
+      </div>
+      <div class="wrapper">
+        <figure class="project-image">
+          <img src="img/infiniteScroll.png" width="928" height="450" alt="bankist app">
+        </figure>
+        <h3>Приложение бесконечный скролл.</h3>
+        <p> Подгрузка фотографий по 10шт с сайта Unsplash. Фото грузятся рандомные,
+          получаем json с сайта и генерируем фото-ссылки "на-лету" посредством метода "createElement". Всю нужную
+          информацию, таку как src, href получаем из массива json объектов. При пролистывании не доходя до конца
+          страницы происходит подгрузка фотографий</p>
+        <a class="button" target="_blank" href="https://evgen112227.github.io/InfiniteScroll/">Открыть страницу</a>
+      </div>
+      <div class="wrapper">
+        <figure class="project-image">
+          <img src="img/quoteGenerator.png" width="928" height="450" alt="bankist app">
+        </figure>
+        <h3>Генератор цитат.</h3>
+        <p>Делает асинхронный запрос на <a href="https://type.fit/api/quotes">rest-api</a>. Полученный массив цитат
+          записываем в
+          массив локально, и уже работаем с этой переменной (получем рандомный номер из массива). Есть возможность
+          твитнуть цитату.</p>
+        <a class="button" target="_blank" href="https://evgen112227.github.io/QuoteGenerator//">Открыть страницу</a>
+      </div>
+      <div class="wrapper">
+        <figure class="project-image">
+          <img src="img/bankistApp.png" width="928" height="450" alt="bankist app">
+        </figure>
+        <h3>Приложение банка.</h3>
+        <p>Учебный проект из Udemy. Можно перевести деньги другому пользователю, запросить у банка
+          кредит. Есть таймер.
+          Созданы 3 объекта с пользователями. Чтобы войти нужно ввести инициалы пользователя и пин-коды(первый
+          пользоаватель: инициалы js,
+          пин 1111, второй: vgt - 2222, третий: ja - 3333</p>
+        <a class="button" target="_blank" href="https://evgen112227.github.io/BankistApp/">Открыть страницу</a>
+      </div>
+      <div class="wrapper">
+        <figure class="project-image">
+          <img src="img/Louvre.png" width="928" height="450" alt="Cайт Лувра">
+        </figure>
+        <h3>Первая страница сайта Louvre</h3>
+        <p>Сделана на подготовительном этапе при обучении в RS School.Pixel Perfect, без БЭМа и
+          без адаптива</p>
+        <a class="button" target="_blank" href="https://evgen112227-museum1.netlify.app/">Открыть страницу</a>
+      </div>
+      <div class="wrapper">
+        <figure class="project-image">
+          <img src="img/slider.png" width="928" height="450" alt="Слайдер">
+        </figure>
+        <h3>Слайдер, JS.</h3>
+        <p>Также сделан на подготовительном этапе при обучении в RS School</p>
+        <a class="button" target="_blank" href="https://evgen112227-js30.netlify.app/">Открыть страницу</a>
+      </div>
+      <div class="wrapper">
+        <figure class="project-image">
+          <img src="img/guessgame.jpg" width="928" height="450" alt="guess game">
+        </figure>
+        <h3>Игра Guess number</h3>
+        <p>Простая игра "угадай мой номер" Компьютер загадывает число между 1 и 20, вам нужно его угадать. Есть кнопка
+          again, highscore запоминаются по наилучшему результату всех предыдущих попыток.</p>
+        <a class="button" target="_blank" href="https://evgen112227.github.io/guess-game//">Открыть страницу</a>
+      </div>
+      <div class="wrapper">
+        <figure class="project-image">
+          <img src="img/himiya-site.jpg" width="928" height="450" alt="сайт по химии">
+        </figure>
+        <h3>Работающий сайт репетитора по химии</h3>
+        <p>Сделан мной полностью по проекту знакомой. Дизайн знакомой, реализация моя. Сайт олностью адаптивен,
+          оптимизирован, изображения сжаты при помощи онлайн-сервисов</p>
+        <a class="button" target="_blank" href="https://himiyadlyavseh.by/">Открыть страницу</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="page-footer">
+    <div class="container">
+      <a class="page-footer__mail mail" href="mailto:deribasovich@gmail.com">deribasovich@gmail.com</a>
+      <a class="page-footer__tel tel" href="tel:+375333370886">+375 33 3370886</a>
+    </div>
+  </footer>
+
+</body>
+
+</html>
