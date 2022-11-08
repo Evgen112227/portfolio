@@ -1,253 +1,279 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Junior web-dev portfolio</title>
+		<link rel="stylesheet" href="style.css" />
+		<link
+			href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Old+Standard+TT&display=swap&subset=cyrillic"
+			rel="stylesheet"
+		/>
+	</head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Junior web-dev portfolio</title>
-  <link rel="stylesheet" href="style.css">
-  <link
-    href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Old+Standard+TT&display=swap&subset=cyrillic"
-    rel="stylesheet">
-</head>
+	<body>
+		<header class="page-header">
+			<div class="container">
+				<a class="page-header__mail mail" href="mailto:deribasovich@gmail.com">deribasovich@gmail.com</a>
+				<a class="page-header__tel tel" href="tel:+375333370886">+375 33 3370886</a>
+			</div>
+		</header>
 
-<body>
-  <header class="page-header">
-    <div class="container">
-      <a class="page-header__mail mail" href="mailto:deribasovich@gmail.com">deribasovich@gmail.com</a>
-      <a class="page-header__tel tel" href="tel:+375333370886">+375 33 3370886</a>
-    </div>
-  </header>
+		<section class="hero-image">
+			<div class="container">
+				<h1 class="heading">Yauheni Hladki</h1>
+				<p>Junior Web-developer</p>
+			</div>
+		</section>
 
-  <section class="hero-image">
-    <div class="container">
-      <h1 class="heading">Yauheni Hladki</h1>
-      <p>Junior Web-developer</p>
-    </div>
-  </section>
+		<section class="intro">
+			<div class="container">
+				<!-- <h2 class="subheading">Давайте познакомимся</h2> -->
+				<figure>
+					<img src="img/photo.jpg" width="928" height="708" alt="Фотография Неопознанного Енота" />
+				</figure>
 
-  <section class="intro">
-    <div class="container">
-      <!-- <h2 class="subheading">Давайте познакомимся</h2> -->
-      <figure>
-        <img src="img/photo.jpg" width="928" height="708" alt="Фотография Неопознанного Енота">
-      </figure>
+				<div class="skills">
+					<h3>My skills</h3>
+					<dl class="skills-list">
+						<dt class="skill-html">HTML</dt>
+						<dd class="level">
+							<div style="width: 60%">601%</div>
+						</dd>
+						<dt class="skill-js">JavaScript</dt>
+						<dd class="level">
+							<div style="width: 60%">60%</div>
+						</dd>
+						<dt class="skill-css">CSS</dt>
+						<dd class="level">
+							<div style="width: 40%">40%</div>
+						</dd>
+						<dt class="skill-sass">Sass</dt>
+						<dd class="level">
+							<div style="width: 40%">40%</div>
+						</dd>
+						<dt class="skill-react">React</dt>
+						<dd class="level">
+							<div style="width: 30%">30%</div>
+						</dd>
+					</dl>
+				</div>
+			</div>
+		</section>
 
-      <div class="skills">
-        <h3>My skills</h3>
-        <dl class="skills-list">
-          <dt class="skill-html">HTML</dt>
-          <dd class="level">
-            <div style="width: 60%">601%</div>
-          </dd>
-          <dt class="skill-js">JavaScript</dt>
-          <dd class="level">
-            <div style="width: 60%">60%</div>
-          </dd>
-          <dt class="skill-css">CSS</dt>
-          <dd class="level">
-            <div style="width: 40%">40%</div>
-          </dd>
-          <dt class="skill-sass">Sass</dt>
-          <dd class="level">
-            <div style="width: 40%">40%</div>
-          </dd>
-          <dt class="skill-react">React</dt>
-          <dd class="level">
-            <div style="width: 30%">30%</div>
-          </dd>
-        </dl>
-      </div>
+		<section class="portfolio">
+			<div class="container">
+				<h2 class="subheading">My projects</h2>
 
-    </div>
-  </section>
+				<div class="wrapper">
+					<figure class="project-image">
+						<img src="img/himiya-site.jpg" width="928" height="450" alt="сайт по химии" />
+					</figure>
+					<h3>Repetitor site</h3>
+					<p>
+						I created this site using the design developed by the owner of this page. The site is adjusted to all
+						resolutions.
+					</p>
+					<a class="button" target="_blank" href="https://himiyadlyavseh.by/">Open page</a>
+				</div>
 
-  <section class="portfolio">
-    <div class="container">
-      <h2 class="subheading">My projects</h2>
+				<div class="wrapper">
+					<figure class="project-image">
+						<img class="joke w928" src="img/mapty.png" width="928" height="750" alt="mapty application" />
+					</figure>
+					<h3>Mapty App</h3>
+					<p>
+						Udemy project. The Third party library leaflet has been used. When clicking on the map, the tab is created
+						on the left side of the page where you can choose between cycling and running activities. You can enter
+						various data, such as duration, distance, cadence or elevation gain. The tab with this data is created and
+						the mark appears on the map. This entered data is sent to the localStorage and you can reload or close the
+						page without losing your information. Every tab and mark has the delete button.
+					</p>
+					<a class="button" target="_blank" href="https://evgen112227.github.io/mapty/">Open this page</a>
+				</div>
 
-      <div class="wrapper">
-        <figure class="project-image">
-          <img src="img/himiya-site.jpg" width="928" height="450" alt="сайт по химии">
-        </figure>
-        <h3>Repetitor site</h3>
-        <p>I created this site using the design developed by the owner of this page. The site is adjusted to all
-          resolutions.
-        </p>
-        <a class="button" target="_blank" href="https://himiyadlyavseh.by/">Open page</a>
-      </div>
+				<div class="wrapper">
+					<figure class="project-image">
+						<img class="trillo w928" src="img/trillo.png" width="928" height="750" alt="Trillo app" />
+					</figure>
+					<h3>Trillo app</h3>
+					<p>I made this project on Udemy courses. Here I used flexbox module mostly.</p>
+					<a class="button" target="_blank" href="https://evgen112227.github.io/Trello-app/">Open this page</a>
+				</div>
 
-      <div class="wrapper">
-        <figure class="project-image">
-          <img class="joke w928" src="img/mapty.png" width="928" height="750" alt="mapty application">
-        </figure>
-        <h3>Mapty App</h3>
-        <p>
-          Udemy project. The Third party library leaflet has been used. When clicking on the map, the tab is created on
-          the left side of the page where you can choose between cycling and running activities. You can enter various
-          data, such as duration, distance, cadence or elevation gain. The tab with this data is created and the mark
-          appears on the map. This entered data is sent to the localStorage and you can reload or close the page without
-          losing your information. Every tab and mark has the delete button.
-        </p>
-        <a class="button" target="_blank" href="https://evgen112227.github.io/mapty/">Open this page</a>
-      </div>
+				<div class="wrapper">
+					<figure class="project-image">
+						<img class="joke w928" src="img/nattour.png" width="928" height="750" alt="Nattour site" />
+					</figure>
+					<h3>Nattour site</h3>
+					<p>
+						I realized this project on Udemy courses. Here I used floats mostly, just to consolidate the knowledge of
+						this technology although it’s old enough.
+					</p>
+					<a class="button" target="_blank" href="https://evgen112227.github.io/yacht-club-landing-page/"
+						>Open this page</a
+					>
+				</div>
 
-      <div class="wrapper">
-        <figure class="project-image">
-          <img class="joke w928" src="img/nattour.png" width="928" height="750" alt="Nattour site">
-        </figure>
-        <h3>Nattour site</h3>
-        <p>I realized this project on Udemy courses. Here I used floats mostly, just to consolidate the knowledge of
-          this technology although it’s old enough.
-        </p>
-        <a class="button" target="_blank" href="https://evgen112227.github.io/yacht-club-landing-page/">Open this
-          page</a>
-      </div>
+				<div class="wrapper">
+					<figure class="project-image">
+						<img class="joke w928" src="img/yachtclub.png" width="928" height="750" alt="custom videoplayer" />
+					</figure>
+					<h3>"Yacht club" landing page</h3>
+					<p>Landing page of the "Yacht club". HTML Academy training template.</p>
+					<a class="button" target="_blank" href="https://evgen112227.github.io/NASA-Picture-Of-the-Day-app/"
+						>Open this page</a
+					>
+				</div>
 
-      <div class="wrapper">
-        <figure class="project-image">
-          <img class="joke w928" src="img/yachtclub.png" width="928" height="750" alt="custom videoplayer">
-        </figure>
-        <h3>"Yacht club" landing page</h3>
-        <p>Landing page of the "Yacht club". HTML Academy training template.
-        </p>
-        <a class="button" target="_blank" href="https://evgen112227.github.io/NASA-Picture-Of-the-Day-app/">Open this
-          page</a>
-      </div>
+				<div class="wrapper">
+					<figure class="project-image">
+						<img class="w928" src="img/nasaapod.png" width="928" height="750" alt="nasa apod app" />
+					</figure>
+					<h3>NASA Picture of the Day APP</h3>
+					<p>
+						This app uses NASA API to get picture of the day. The results are formatted into the card with picture,
+						title, add to favorites button, description, date and copyright information. 10 cards with this info are
+						rendering. You can click the image to get full resolution version. We can add images to the favorite. This
+						is accompished using localStorage. You can remove card from favorite clicking remove button.
+					</p>
+					<a class="button" target="_blank" href="https://evgen112227.github.io/yacht-club-landing-page/"
+						>Open this page</a
+					>
+				</div>
 
-      <div class="wrapper">
-        <figure class="project-image">
-          <img class="w928" src="img/nasaapod.png" width="928" height="750" alt="nasa apod app">
-        </figure>
-        <h3>NASA Picture of the Day APP</h3>
-        <p>This app uses NASA API to get picture of the day. The results are formatted into the card with picture,
-          title, add to favorites button, description, date and copyright information. 10 cards with this info are
-          rendering. You can click the image to get full resolution version. We can add images to the favorite. This is
-          accompished using localStorage. You can remove card from favorite clicking remove button.
-        </p>
-        <a class="button" target="_blank" href="https://evgen112227.github.io/yacht-club-landing-page/">Open this
-          page</a>
-      </div>
+				<div class="wrapper">
+					<figure class="project-image">
+						<img class="joke w928" src="img/custom_videoplayer.png" width="928" height="750" alt="custom videoplayer" />
+					</figure>
+					<h3>"Custom videoplayer" App</h3>
+					<p>
+						Custom videoplayer. You can play/pause, mute/unmute and set video to fullscreen, volume bar is also
+						responsive. You can rewind video by clicking progress bar.
+					</p>
+					<a class="button" target="_blank" href="https://evgen112227.github.io/videoplayer/">Open page</a>
+				</div>
 
-      <div class="wrapper">
-        <figure class="project-image">
-          <img class="joke w928" src="img/custom_videoplayer.png" width="928" height="750" alt="custom videoplayer">
-        </figure>
-        <h3>"Custom videoplayer" App</h3>
-        <p>Custom videoplayer. You can play/pause, mute/unmute and set video to fullscreen, volume bar is also
-          responsive. You can rewind video by clicking progress bar.
-        </p>
-        <a class="button" target="_blank" href="https://evgen112227.github.io/videoplayer/">Open page</a>
-      </div>
+				<div class="wrapper">
+					<figure class="project-image">
+						<img class="h100" src="img/audioplayer.png" width="928" height="750" alt="custom audioplayer" />
+					</figure>
+					<h3>"Custom audioplayer" App</h3>
+					<p>
+						Custom audio player. You can play/pause the audio, rewind. You can rewind audio by clicking progress bar.
+					</p>
+					<a class="button" target="_blank" href="https://evgen112227.github.io/MusicPalyer/">Open page</a>
+				</div>
 
-      <div class="wrapper">
-        <figure class="project-image">
-          <img class="h100" src="img/audioplayer.png" width="928" height="750" alt="custom audioplayer">
-        </figure>
-        <h3>"Custom audioplayer" App</h3>
-        <p>Custom audio player. You can play/pause the audio, rewind. You can rewind audio by clicking progress bar.
-        </p>
-        <a class="button" target="_blank" href="https://evgen112227.github.io/MusicPalyer/">Open page</a>
-      </div>
+				<div class="wrapper">
+					<figure class="project-image">
+						<img class="joke w928" src="img/bookmark.png" width="928" height="750" alt="bookmark app" />
+					</figure>
+					<h3>"Bookmark" App</h3>
+					<p>
+						This app allows users to save bookmarks and click on the links to go to those websites. It has localStorage
+						functionality, you can come back to the site any time and find your bookmarks just as you left them. Every
+						link has a favicon of the associated site. Clicking the "ADD BOOKMARK" button opens modal where you can
+						enter the website name and address to save. Every individual item can be deleted by clicking the delete
+						button on the top right corner of the bookmark.
+					</p>
+					<a class="button" target="_blank" href="https://evgen112227.github.io/bookmark/">Open page</a>
+				</div>
 
-      <div class="wrapper">
-        <figure class="project-image">
-          <img class="joke w928" src="img/bookmark.png" width="928" height="750" alt="bookmark app">
-        </figure>
-        <h3>"Bookmark" App</h3>
-        <p>This app allows users to save bookmarks and click on the links to go to those websites. It has localStorage
-          functionality, you can come back to the site any time and find your bookmarks just as you left them. Every
-          link has a favicon of the associated site. Clicking the "ADD BOOKMARK" button opens modal where you can enter
-          the website name and address to save. Every individual item can be deleted by clicking the delete button on
-          the top right corner of the bookmark. </p>
-        <a class="button" target="_blank" href="https://evgen112227.github.io/bookmark/">Open page</a>
-      </div>
+				<div class="wrapper">
+					<figure class="project-image">
+						<img class="joke" src="img/tellMeAJoke.png" width="928" height="450" alt="tell me a joke app" />
+					</figure>
+					<h3>"Tell me a joke" App</h3>
+					<p>
+						. By clicking "Tell me a joke" button we call
+						<a href="https://sv443.net/jokeapi/v2/">"JokeAPI - Sv443"</a> to get a random joke. Then we pass the
+						response (joke text) into a speech API -
+						<a href="https://rapidapi.com/voicerss/api/text-to-speech-1/details"
+							>The Voice RSS Text-to-Speech (TTS) API which telling us a joke.</a
+						>
+					</p>
+					<a class="button" target="_blank" href="https://evgen112227.github.io/TellMeAJoke/">Open page</a>
+				</div>
 
-      <div class="wrapper">
-        <figure class="project-image">
-          <img class="joke" src="img/tellMeAJoke.png" width="928" height="450" alt="tell me a joke app">
-        </figure>
-        <h3>"Tell me a joke" App</h3>
-        <p>. By clicking "Tell me a joke" button we call <a href="https://sv443.net/jokeapi/v2/">"JokeAPI -
-            Sv443"</a> to get a random joke. Then we pass the response (joke text) into a speech API -
-          <a href="https://rapidapi.com/voicerss/api/text-to-speech-1/details">The Voice RSS
-            Text-to-Speech (TTS) API which telling us a joke.</a>
-        </p>
-        <a class="button" target="_blank" href="https://evgen112227.github.io/TellMeAJoke/">Open page</a>
-      </div>
+				<div class="wrapper">
+					<figure class="project-image">
+						<img src="img/infiniteScroll.png" width="928" height="450" alt="bankist app" />
+					</figure>
+					<h3>infinity scroll</h3>
+					<p>
+						As you scroll near the bottom of the page another network request is made and it happens before you reach
+						the bottom of the page. Photos are fetched from Unsplash API. Clicking on photo lead you to the unsplash.com
+						website so you can see the author or download the photo.
+					</p>
+					<a class="button" target="_blank" href="https://evgen112227.github.io/InfiniteScroll/">Open page</a>
+				</div>
 
-      <div class="wrapper">
-        <figure class="project-image">
-          <img src="img/infiniteScroll.png" width="928" height="450" alt="bankist app">
-        </figure>
-        <h3>infinity scroll</h3>
-        <p> As you scroll near the bottom of the page another network request is made and it happens before you reach
-          the bottom of the page. Photos are fetched from Unsplash API. Clicking on photo lead you to the unsplash.com
-          website so you can see the author or download the photo.</p>
-        <a class="button" target="_blank" href="https://evgen112227.github.io/InfiniteScroll/">Open page</a>
-      </div>
+				<div class="wrapper">
+					<figure class="project-image">
+						<img src="img/quoteGenerator.png" width="928" height="450" alt="bankist app" />
+					</figure>
+					<h3>Random Quote Generator</h3>
+					<p>
+						This app make asynch fetch request to a <a href="https://type.fit/api/quotes"></a> rest-api in order to get
+						a quote. Then we save array of quotes into the local variable and work with that variable (getting random
+						nuber of quote). You can tweet quote and generate new one.
+					</p>
+					<a class="button" target="_blank" href="https://evgen112227.github.io/QuoteGenerator//">Open page</a>
+				</div>
 
-      <div class="wrapper">
-        <figure class="project-image">
-          <img src="img/quoteGenerator.png" width="928" height="450" alt="bankist app">
-        </figure>
-        <h3>Random Quote Generator</h3>
-        <p>This app make asynch fetch request to a <a href="https://type.fit/api/quotes"></a> rest-api in order to get a
-          quote. Then we save array of quotes into the local variable and work with that variable (getting random nuber
-          of quote). You can tweet quote and generate new one. </p>
-        <a class="button" target="_blank" href="https://evgen112227.github.io/QuoteGenerator//">Open page</a>
-      </div>
+				<div class="wrapper">
+					<figure class="project-image">
+						<img src="img/bankistApp.png" width="928" height="450" alt="bankist app" />
+					</figure>
+					<h3>Bankist app</h3>
+					<p>
+						Project from Udemy.You can send money to any available user, request a loan. Like in any modern bank app
+						there is a countdown timer. When time is out, you are automaticaly logged out. There are 3 objects with
+						user. To use this app you need to provide initials and pin (first user: js and 1111, second one: vgt - 2222,
+						third one: ja - 3333)
+					</p>
+					<a class="button" target="_blank" href="https://evgen112227.github.io/BankistApp/">Open page</a>
+				</div>
 
-      <div class="wrapper">
-        <figure class="project-image">
-          <img src="img/bankistApp.png" width="928" height="450" alt="bankist app">
-        </figure>
-        <h3>Bankist app</h3>
-        <p>Project from Udemy.You can send money to any available user, request a loan. Like in any modern bank app
-          there is a countdown timer. When time is out, you are automaticaly logged out.
-          There are 3 objects with user. To use this app you need to provide initials and pin (first user: js and 1111,
-          second one: vgt - 2222, third one: ja - 3333)</p>
-        <a class="button" target="_blank" href="https://evgen112227.github.io/BankistApp/">Open page</a>
-      </div>
+				<div class="wrapper">
+					<figure class="project-image">
+						<img src="img/Louvre.png" width="928" height="450" alt="Cайт Лувра" />
+					</figure>
+					<h3>Louvre website landing page</h3>
+					<p>I did this project during RS School education process.</p>
+					<a class="button" target="_blank" href="https://evgen112227-museum1.netlify.app/">Open page</a>
+				</div>
 
-      <div class="wrapper">
-        <figure class="project-image">
-          <img src="img/Louvre.png" width="928" height="450" alt="Cайт Лувра">
-        </figure>
-        <h3>Louvre website landing page</h3>
-        <p>I did this project during RS School education process.</p>
-        <a class="button" target="_blank" href="https://evgen112227-museum1.netlify.app/">Open page</a>
-      </div>
+				<div class="wrapper">
+					<figure class="project-image">
+						<img src="img/slider.png" width="928" height="450" alt="Слайдер" />
+					</figure>
+					<h3>Slider</h3>
+					<p>I did this project during RS SChool education process.</p>
+					<a class="button" target="_blank" href="https://evgen112227-js30.netlify.app/">Open page</a>
+				</div>
 
-      <div class="wrapper">
-        <figure class="project-image">
-          <img src="img/slider.png" width="928" height="450" alt="Слайдер">
-        </figure>
-        <h3>Slider</h3>
-        <p>I did this project during RS SChool education process.</p>
-        <a class="button" target="_blank" href="https://evgen112227-js30.netlify.app/">Open page</a>
-      </div>
+				<div class="wrapper">
+					<figure class="project-image">
+						<img src="img/guessgame.jpg" width="928" height="450" alt="guess game" />
+					</figure>
+					<h3>Guess number game</h3>
+					<p>
+						Simple game "guess my number". Your task is to guess number between 1 and 20. There is a button "againg".
+						Your highscore - the best result from previous attempt.
+					</p>
+					<a class="button" target="_blank" href="https://evgen112227.github.io/guess-game//">Open page</a>
+				</div>
+			</div>
+		</section>
 
-      <div class="wrapper">
-        <figure class="project-image">
-          <img src="img/guessgame.jpg" width="928" height="450" alt="guess game">
-        </figure>
-        <h3>Guess number game</h3>
-        <p>Simple game "guess my number". Your task is to guess number between 1 and 20. There is a button "againg".
-          Your highscore - the best result from previous attempt.</p>
-        <a class="button" target="_blank" href="https://evgen112227.github.io/guess-game//">Open page</a>
-      </div>
-    </div>
-  </section>
-
-  <footer class="page-footer">
-    <div class="container">
-      <a class="page-footer__mail mail" href="mailto:deribasovich@gmail.com">deribasovich@gmail.com</a>
-      <a class="page-footer__tel tel" href="tel:+375333370886">+375 33 3370886</a>
-    </div>
-  </footer>
-
-</body>
-
+		<footer class="page-footer">
+			<div class="container">
+				<a class="page-footer__mail mail" href="mailto:deribasovich@gmail.com">deribasovich@gmail.com</a>
+				<a class="page-footer__tel tel" href="tel:+375333370886">+375 33 3370886</a>
+			</div>
+		</footer>
+	</body>
 </html>
