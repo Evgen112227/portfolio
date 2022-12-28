@@ -202,6 +202,10 @@ body .dark {
 	height: auto;
 }
 
+.width400 {
+	width: 600px !important;
+}
+
 .projects p {
 	margin: 0 0 24px;
 }
